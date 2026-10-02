@@ -1,0 +1,1861 @@
+[
+ {
+  "es": "Xtream import cancelled",
+  "exprs": [],
+  "sites": 13
+ },
+ {
+  "es": "Unnamed",
+  "exprs": [],
+  "sites": 10
+ },
+ {
+  "es": "Séries",
+  "exprs": [],
+  "sites": 7
+ },
+ {
+  "es": "Todas",
+  "exprs": [],
+  "sites": 6
+ },
+ {
+  "es": "playlist_id = ? AND item_type = ? AND item_key = ?",
+  "exprs": [],
+  "sites": 6
+ },
+ {
+  "es": "M3U",
+  "exprs": [],
+  "sites": 5
+ },
+ {
+  "es": "es-ES",
+  "exprs": [],
+  "sites": 5
+ },
+ {
+  "es": "error desconocido",
+  "exprs": [],
+  "sites": 4
+ },
+ {
+  "es": "Más recientes",
+  "exprs": [],
+  "sites": 4
+ },
+ {
+  "es": "Nombre A-Z",
+  "exprs": [],
+  "sites": 4
+ },
+ {
+  "es": "Nombre Z-A",
+  "exprs": [],
+  "sites": 4
+ },
+ {
+  "es": "iptvnator-playlist-backup.json",
+  "exprs": [],
+  "sites": 3
+ },
+ {
+  "es": "Identificador de serie no válido",
+  "exprs": [],
+  "sites": 3
+ },
+ {
+  "es": "Rádio",
+  "exprs": [],
+  "sites": 3
+ },
+ {
+  "es": "\\u0001",
+  "exprs": [],
+  "sites": 3
+ },
+ {
+  "es": "{1}:{2}",
+  "exprs": [
+   "it.id",
+   "it.hiddenGroupTitles.joinToString(\"\\u0002\")"
+  ],
+  "sites": 3
+ },
+ {
+  "es": "Playlist",
+  "exprs": [],
+  "sites": 3
+ },
+ {
+  "es": "No se pueden grabar streams DASH protegidos por DRM.",
+  "exprs": [],
+  "sites": 3
+ },
+ {
+  "es": "No se pudo crear la carpeta de la grabación DASH.",
+  "exprs": [],
+  "sites": 3
+ },
+ {
+  "es": "Importando archivo M3U…",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "No se pudo leer el archivo M3U",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Archivo M3U actualizado: {1}",
+  "exprs": [
+   "it.name"
+  ],
+  "sites": 2
+ },
+ {
+  "es": "Descarga completada.$progress",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "La descarga ha fallado{1}.orEmpty()}.",
+  "exprs": [
+   "snapshot.reason?.let { \" ($it)\""
+  ],
+  "sites": 2
+ },
+ {
+  "es": "Descarga pausada.$progress",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Continuar desde {1}",
+  "exprs": [
+   "formatEpisodePositionForPlayback(progress.positionMs)"
+  ],
+  "sites": 2
+ },
+ {
+  "es": "series-episode",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Descarga cancelada.",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Autenticando con Xtream…",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Expiración",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Guia de TV",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Más antiguas",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "{1} {2}",
+  "exprs": [
+   "if (totalChannelCount > 0) totalChannelCount else channels.size",
+   "if (radioOnly) \"emisoras\" else \"canales\""
+  ],
+  "sites": 2
+ },
+ {
+  "es": "Catálogo",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": " · Desde el inicio",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": " · Archivo no disponible",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Reprodução",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Automático",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Dirección",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Canales",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Tipo de fuente no compatible",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS channels_lookup_idx ON channels(playlist_id, radio, name COLLATE NOCASE, id)",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS channels_number_idx ON channels(playlist_id, radio, channel_number)",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS vod_playlist_idx ON vod(playlist_id)",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS series_playlist_idx ON series(playlist_id)",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS vod_name_lookup_idx ON vod(playlist_id, name COLLATE NOCASE)",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS series_name_lookup_idx ON series(playlist_id, name COLLATE NOCASE)",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "playlist_id = ? AND category_id = ?",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "playlist_id = ? AND xtream_id = ?",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "playlist_id = ? AND name LIKE ? COLLATE NOCASE",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "playlist_id = ? AND added_at_ms IS NOT NULL",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "playlist_id = ? AND series_id = ? AND episode_id = ?",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "playlist_id = ? AND category_id IS NOT NULL AND TRIM(category_id) <> ''",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "La clave AES-128 HLS no especifica URI.",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "La respuesta no tiene contenido.",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "Xtream account request returned no response",
+  "exprs": [],
+  "sites": 2
+ },
+ {
+  "es": "iptvnator-m3u-ui-import-test.db",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El portal no devolvió información de cuenta.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "backups/iptvnator-playlist-backup.json",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo crear el backup en Descargas",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo escribir el backup en Descargas",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No hay ningún backup local para restaurar",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo abrir el archivo de backup",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo leer el backup",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Archivo XMLTV añadido: {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "M3U document grant could not be persisted: {1}",
+  "exprs": [
+   "failure.javaClass.simpleName"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo cambiar de canal. Se mantiene el canal actual.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Cambiando de canal…",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Canal: $channelName",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Buscando otra fuente Xtream…",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Cambiando a otra fuente…",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Temporada: $added añadidos, $skipped omitidos, $failed fallidos.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Conectando con el panel Xtream…",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Conectando con el portal Stalker…",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Importando playlist…",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Local M3U import failed",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Actualizando {1}…",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Fuente actualizada: {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Solo se pueden descargar programas ya emitidos.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Este canal no ofrece archivo catch-up para ese programa.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Este canal no ofrece una URL catch-up para ese programa.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El canal ya no está disponible en esta playlist.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "auto_refresh_{1}",
+  "exprs": [
+   "playlist.id"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Caché TMDB vaciada.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Preferencias de TV restauradas. Las fuentes se conservaron.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Descarga pausada; puedes reanudarla desde este punto.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Reanudando descarga desde el archivo parcial.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se encontró el episodio original.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se encontró la entrada M3U original.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se encontró el canal original del catch-up.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El archivo catch-up ya no está disponible.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se encontró el VOD original.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Fuente eliminada: {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Fuente renombrada: $nextName",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "  {1} {2}",
+  "exprs": [
+   "filtered.size",
+   "if (filtered.size == 1) \"fuente\" else \"fuentes\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "{1} · {2} canales",
+  "exprs": [
+   "playlistType(playlist)",
+   "playlistChannelCount(playlist)"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Selecciona un canal para iniciar la reproducción",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Mis playlists",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Solo categorías",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Agrupar por fuente",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Escribe al menos 2 caracteres para buscar.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Sin resultados",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Prueba con otro nombre o activa más tipos de contenido.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Resultados · {1}",
+  "exprs": [
+   "if (groupByPlaylist) \"agrupados por fuente\" else \"todas las fuentes\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Canales favoritos · {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Películas favoritas · {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Series favoritas · {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Añadido recientemente · Películas",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Añadido recientemente · Series",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Canales · {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Películas · {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Series · {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Canal en directo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Canal",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Valoración ↓",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Valoración ↑",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No hay películas",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Esta fuente no tiene películas en la categoría o búsqueda actual.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No hay series",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Esta fuente no tiene series en la categoría o búsqueda actual.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Películas nuevas",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Series nuevas",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Desde el inicio",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Sin archivo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Borra la búsqueda para cambiar el orden.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Para cambiar el orden, selecciona Todos los grupos.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Pulsa derecha hasta ★, ↑ o ↓ y confirma para gestionar el orden.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No hay favoritos que coincidan con «{1}».",
+  "exprs": [
+   "favoriteSearchQuery.trim()"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "No hay favoritos en este grupo o categoría.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No hay favoritos de tipo {1}.",
+  "exprs": [
+   "tvFavoriteTypeLabel(selectedType).lowercase(Locale.getDefault())"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Nombre A–Z",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Nombre Z–A",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "{1}\\u0000{2}\\u0000{3}",
+  "exprs": [
+   "item.playlistId",
+   "item.itemType.name",
+   "item.itemKey"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Gravações",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Estado no disponible",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Backup",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Sobre",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Configura el aspecto y el comportamiento inicial de la aplicación.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Gestiona tus playlists M3U, Xtream Codes y Stalker.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Opciones del reproductor y del comportamiento al cambiar de canal.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Guía de programación y recuperación de datos XMLTV.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Personaliza el contenido mostrado en Inicio.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Navegación con cruceta, selección y controles con foco visible.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Configura el enriquecimiento opcional de películas y series.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Información y mantenimiento de IPTVnator para Google TV.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Idioma",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Idioma do aplicativo (segue o idioma do sistema)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Posición de reproducción",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Recupera el punto de películas y episodios",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Gestionado por Media3 según la conexión",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Ventana de guía",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Actual y anteriores",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Incluye catch-up cuando la fuente lo permite",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Muestra el último contenido reproducido en Inicio; pulsa OK para cambiarlo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Acceso rápido a tus playlists en Inicio; pulsa OK para cambiarlo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Canales favoritos",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Rail de canales en directo marcados como favoritos; pulsa OK para cambiarlo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Rail de canales en directo reproducidos recientemente; pulsa OK para cambiarlo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Películas y series favoritas",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Rail de contenido VOD marcado como favorito; pulsa OK para cambiarlo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Títulos de tendencia que también existen en tus catálogos IPTV; requiere una clave TMDB",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Recomendaciones basadas en películas y series vistas; requiere una clave TMDB",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Añadido recientemente",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Rail de películas y series incorporadas recientemente en Xtream",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Navegación",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Cruceta y OK",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Todas las acciones importantes tienen foco TV",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Estrella con foco",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Selecciona la estrella del canal y pulsa OK",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Pausa o reanuda el contenido actual",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Buscar en VOD",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Avanza o retrocede cinco segundos en películas y episodios",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Volumen",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Ajusta o silencia el volumen del reproductor",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Cambiar canal",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Sube, baja o selecciona directamente un canal en directo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No aplica",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Esta lista no conserva una URL ni un archivo que pueda releerse",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "{1} · {2}",
+  "exprs": [
+   "item.itemType.name.lowercase(Locale.getDefault())",
+   "playlistNames[item.playlistId] ?: \"Fuente desconocida\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "M3U / M3U8",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Servidor, usuario y contraseña",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Portal y dirección MAC",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Pega texto M3U directamente",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Detección automática",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Pega los datos de tu proveedor",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Cargando canales y categorías…",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Canales en directo: $current",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Catálogo Xtream listo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Importando catálogo Xtream…",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Orden del proveedor",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Catálogo guardado en este dispositivo.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Guardando el catálogo en la biblioteca local de este dispositivo.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Esperando la respuesta del proveedor.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "TV · {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Película · {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Serie · {1}",
+  "exprs": [
+   "playlist.name"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "{1} episodios",
+  "exprs": [
+   "details.episodes.size"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "▶  {1} T{2} · E{3}",
+  "exprs": [
+   "if (started) \"Continuar\" else \"Reproducir\"",
+   "episode.season",
+   "episode.episode"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Temporada $season{1}",
+  "exprs": [
+   "if (done) \"  ✓\" else \"\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "T{1} · Episodio {2}",
+  "exprs": [
+   "episode.season",
+   "episode.episode"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Sin empezar",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No existe el archivo parcial de la descarga.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo reemplazar el archivo final.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo finalizar el archivo descargado.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor rechazó el rango de reanudación (HTTP 416).",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Error HTTP {1} al descargar.",
+  "exprs": [
+   "response.code"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "El servidor devolvió un Content-Range inválido.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor reanudó desde un byte incorrecto.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor devolvió un rango que no se solicitó.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor devolvió una respuesta vacía.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La conexión terminó antes de validar los bytes parciales.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La descarga terminó antes de completar el rango HTTP recibido.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La descarga quedó incompleta ({1} de $totalBytes bytes).",
+  "exprs": [
+   "output.length()"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "El archivo remoto cambió; debe reiniciarse desde cero.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El archivo catch-up de este programa no está disponible.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Este canal usa DRM {1}} y Android TV no puede reproducirlo.",
+  "exprs": [
+   "request.drm.licenseType.ifBlank { \"no compatible\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Reconexión automática cancelada. Pulsa Reintentar para volver a reproducir.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "IPTVnator Google TV - diagnóstico de reproducción",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Título: {1}",
+  "exprs": [
+   "request?.title ?: \"desconocido\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Error: $it",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "DRM: {1}} ({2})",
+  "exprs": [
+   "drm.licenseType.ifBlank { \"desconocido\"",
+   "if (drm.supported) \"compatible\" else \"no compatible\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Vídeo: {1}x{2}, códec={3}, bitrate={4}",
+  "exprs": [
+   "format.width",
+   "format.height",
+   "format.codecs ?: \"desconocido\"",
+   "format.bitrate"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Audio: {1} Hz, canales={2}, códec={3}, bitrate={4}",
+  "exprs": [
+   "format.sampleRate",
+   "format.channelCount",
+   "format.codecs ?: \"desconocido\"",
+   "format.bitrate"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Posición: {1} ms",
+  "exprs": [
+   "player.currentPosition"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Duración: {1} ms",
+  "exprs": [
+   "player.duration"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "El servidor ha rechazado el acceso (HTTP $code). Comprueba las credenciales o los permisos del canal.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Este canal no está disponible (HTTP 404). Puede que el proveedor haya cambiado o retirado la URL.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor del canal no responde correctamente (HTTP $code). Inténtalo de nuevo más tarde.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor del canal respondió HTTP $code.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo grabar: {1}",
+  "exprs": [
+   "finished.error ?: \"el formato no está disponible\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Grabación interrumpida",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Pista de audio",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Audio",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Calidad de vídeo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Esta fuente no se puede grabar.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Grabación iniciada",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo iniciar la grabación",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Episodio",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No hay canales que coincidan",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No hay canales favoritos",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No hay canales recientes",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No hay canales en esta vista",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Pista de subtítulos",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Subtítulos desactivados",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "URL Xtream no válida",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se ha reconocido una fuente M3U, Xtream o Stalker en el texto",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "season|сезон|staffel|temporada|saison|episode|episodio|folge|серия|эпизод|bölüm|odcinek|aflevering",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "iptvnator-playlist-backup",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "iptvnator-android-tv-playlist-backup",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La fuente M3U no tiene datos",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La fuente Xtream no tiene conexión",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La fuente Stalker no tiene conexión",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "#EXTM3U",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Esta lista no conserva un archivo o URL que se pueda actualizar",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El proveedor no devolvió el archivo",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Ruta de archivo vacía",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Tipo de archivo M3U no compatible",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se encuentra el archivo M3U. Comprueba su ubicación o vuelve a importarlo.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La app ya no tiene permiso para leer el archivo M3U. Vuelve a seleccionarlo.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo abrir el archivo XMLTV local",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Descargando canales…",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Descargando guía de programación {1}/{2}…",
+  "exprs": [
+   "index + 1",
+   "enabledGuides.size"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "stalker-vod-series",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX channels_playlist_idx ON channels(playlist_id)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX channels_group_idx ON channels(playlist_id, group_name)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "UPDATE playlists SET epg_url = ? WHERE id = ?",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS channels_playlist_idx ON channels(playlist_id)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS channels_group_idx ON channels(playlist_id, group_name)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "SELECT COUNT(*) FROM $table WHERE playlist_id = ?{1}.orEmpty()}",
+  "exprs": [
+   "predicate?.let { \" AND $it\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "COALESCE(NULLIF(TRIM(group_name), ''), 'Sin grupo') COLLATE NOCASE, ",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "playlist_id = ? AND radio = ? AND TRIM(group_name) COLLATE NOCASE = ?",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "playlist_id = ? AND id = ?",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "playlist_id = ? AND id IN ({1}})",
+  "exprs": [
+   "ids.joinToString(\",\") { \"?\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "playlist_id = ? AND (name LIKE ? COLLATE NOCASE OR group_name LIKE ? COLLATE NOCASE)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "SELECT COUNT(*) FROM channels WHERE playlist_id = ? AND (name LIKE ? COLLATE NOCASE OR group_name LIKE ? COLLATE NOCASE)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "UPDATE saved_items SET is_favorite = 0, global_favorite_order = NULL, playlist_favorite_order = NULL WHERE playlist_id = ? AND item_type = ? AND item_key = ?",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "playlist_id = ? AND item_type = ? AND item_key = ? AND last_played_at IS NULL AND is_watched = 0",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "UPDATE saved_items SET $orderColumn = ? WHERE playlist_id = ? AND item_type = ? AND item_key = ? AND is_favorite = 1",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "playlist_id = ? AND item_type = ? AND item_key = ? AND is_favorite = 0 AND is_watched = 0 AND last_played_at IS NULL",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "playlist_id = ? AND series_id = ?",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS vod_recent_idx ON vod(playlist_id, added_at_ms DESC, name COLLATE NOCASE)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS series_recent_idx ON series(playlist_id, added_at_ms DESC, name COLLATE NOCASE)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS channels_playlist_url_idx ON channels(playlist_id, url)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS channels_page_idx ON channels(playlist_id, name COLLATE NOCASE, id)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS channels_source_order_idx ON channels(playlist_id, radio, source_order, id)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS channels_epg_tvg_id_idx ON channels(playlist_id, tvg_id)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS channels_epg_tvg_name_idx ON channels(playlist_id, tvg_name)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS channels_epg_name_idx ON channels(playlist_id, name)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "CREATE INDEX IF NOT EXISTS episode_progress_series_idx ON episode_progress(playlist_id, series_id, updated_at)",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "EXT-X-MEDIA-SEQUENCE aparece después de segmentos.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Número de secuencia HLS no válido.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La etiqueta EXT-X-KEY no especifica METHOD.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La etiqueta EXT-X-MAP no especifica URI.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Hay más de un EXT-X-BYTERANGE para el mismo segmento.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El desplazamiento implícito EXT-X-BYTERANGE no tiene un segmento anterior del mismo recurso.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El rango de bytes HLS excede el límite permitido.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "EXT-X-BYTERANGE no va seguido por un segmento.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El valor EXT-X-BYTERANGE no es válido.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La longitud EXT-X-BYTERANGE no es válida.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El rango EXT-X-MAP requiere un desplazamiento explícito.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El desplazamiento EXT-X-BYTERANGE no es válido.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El manifiesto DASH dinámico no es válido o no se puede analizar.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La grabación DASH requiere una sola sección de reproducción.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se puede mezclar SegmentBase con SegmentTemplate/SegmentList en una grabación DASH.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El manifiesto DASH no declara recursos BaseURL grabables.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El manifiesto DASH contiene un BaseURL vacío.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor devolvió un recurso DASH vacío.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo resolver un recurso DASH.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La grabación DASH dinámico requiere un único periodo activo.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "DASH dinámico requiere SegmentTemplate o SegmentList sin DRM ni SegmentBase.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El manifiesto DASH dinámico no contiene una pista de vídeo grabable.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Una pista DASH dinámica no tiene índice de segmentos.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Una pista DASH dinámica no tiene URL base.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La ventana DASH dinámica excede el límite de segmentos grabables.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo actualizar el manifiesto DASH tras varios intentos.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se recibió ningún segmento de vídeo DASH antes de detener la grabación.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El manifiesto DASH no tiene una duración estática válida.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El manifiesto DASH no contiene una pista de vídeo grabable.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Una pista DASH no tiene índice de segmentos.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El índice DASH no tiene un número finito de segmentos compatible con una grabación.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Una pista DASH no tiene URL base.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor devolvió un segmento DASH vacío.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La playlist HLS no contiene una variante reproducible.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La grabación HLS todavía no admite rangos AES-128 en listas I-frame.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El cifrado HLS {1} no está disponible en Android TV.",
+  "exprs": [
+   "key.method"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "El formato de clave HLS {1} no está disponible en Android TV.",
+  "exprs": [
+   "key.keyFormat"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "La clave AES-128 HLS debe tener 16 bytes.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El mapa HLS cifrado requiere un IV explícito.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo determinar el IV del segmento HLS cifrado.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo descifrar un segmento HLS AES-128.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El IV de la clave HLS no es un valor hexadecimal de 128 bits.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor devolvió un Content-Range distinto al solicitado.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor devolvió un rango HLS incompleto.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor ignoró Range y el recurso no contiene el rango solicitado.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "HTTP {1} al descargar un rango HLS.",
+  "exprs": [
+   "response.code"
+  ],
+  "sites": 1
+ },
+ {
+  "es": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG250",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "$base/portal.php",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "$base/stalker_portal/server/load.php",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No valid Stalker portal endpoint found",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se encuentra el servidor Xtream. Comprueba la dirección y la red.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor Xtream no responde a tiempo. Puede estar caído o bloqueando la conexión.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se puede conectar con el servidor Xtream. Comprueba el puerto o si el servidor está activo.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo establecer la conexión segura con el servidor Xtream.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "Error de red al conectar con Xtream: {1}",
+  "exprs": [
+   "cause.message ?: \"conexión no disponible\""
+  ],
+  "sites": 1
+ },
+ {
+  "es": "El servidor Xtream ha rechazado las credenciales o el acceso.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "El servidor Xtream respondió con un error: $message",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La cuenta Xtream no está activa o el servidor ha rechazado el usuario o la contraseña.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "La cuenta Xtream ha caducado. Solicita al proveedor una cuenta activa.",
+  "exprs": [],
+  "sites": 1
+ },
+ {
+  "es": "No se pudo conectar con Xtream.",
+  "exprs": [],
+  "sites": 1
+ }
+]

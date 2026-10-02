@@ -1,0 +1,27 @@
+{
+  "_comentario": "Vocabulario que aparece ao mesmo tempo como CHAVE de dispatch (listOf + when) e como ROTULO na tela. Traduzir so a exibicao quebraria o filtro, entao renomeamos o literal em TODAS as ocorrencias do codigo: chave e rotulo viram PT juntos. Verificado por grep (zero ocorrencias do literal antigo) depois de aplicar.",
+  "_nao_entra_aqui": "Strings de exibicao puras vao por traducao.json + res/values (ver traduzir.py).",
+
+  "General": "Geral",
+  "Fuentes IPTV": "Fontes IPTV",
+  "Reproducción": "Reprodução",
+  "Dashboard": "Painel",
+  "Mando": "Controle",
+  "Metadata": "Metadados",
+  "Restablecer": "Redefinir",
+  "Acerca de": "Sobre",
+
+  "Recientes": "Recentes",
+  "Películas": "Filmes",
+  "Película": "Filme",
+  "Series": "Séries",
+  "Grabaciones": "Gravações",
+  "En curso": "Em andamento",
+  "En curso ": "Em andamento ",
+  "TV en directo": "TV ao vivo",
+  "Descargas": "Downloads",
+  "Novedades": "Novidades",
+  "Guía TV": "Guia de TV",
+  "Radio": "Rádio",
+  "Catálogo": "Catálogo"
+}

@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Espanhol (original) - gerado por tools-i18n/traduzir.py -->
+<resources>
+    <!-- ES: TMDB API key is required -->
+    <string name="a_chave_da_api_do_tmdb_e_obrigatoria">TMDB API key is required</string>
+    <!-- ES: La clave se guarda cifrada en Android Keystore y habilita el enriquecimiento de películas y series. -->
+    <string name="a_chave_e_salva_criptografada_no_android_key">La clave se guarda cifrada en Android Keystore y habilita el enriquecimiento de películas y series.</string>
+    <!-- ES: La fuente EPG debe ser HTTP(S) o un archivo local seleccionado en Android TV -->
+    <string name="a_fonte_epg_deve_ser_http_s_ou_um_arquivo_lo">La fuente EPG debe ser HTTP(S) o un archivo local seleccionado en Android TV</string>
+    <!-- ES: La búsqueda global incluye todas tus fuentes IPTV -->
+    <string name="a_pesquisa_global_inclui_todas_as_suas_fonte">La búsqueda global incluye todas tus fuentes IPTV</string>
+    <!-- ES: Playlist request failed with HTTP {1} -->
+    <string name="a_requisicao_da_playlist_falhou_com_http">Playlist request failed with HTTP %1$s</string>
+    <!-- ES: TMDB request failed with HTTP {1} -->
+    <string name="a_requisicao_do_tmdb_falhou_com_http">TMDB request failed with HTTP %1$s</string>
+    <!-- ES: Siguiente: {1} · {2} -->
+    <string name="a_seguir">Siguiente: %1$s · %2$s</string>
+    <!-- ES: Xtream password is required -->
+    <string name="a_senha_do_xtream_e_obrigatoria">Xtream password is required</string>
+    <!-- ES: EPG request failed with HTTP {1} -->
+    <string name="a_solicitacao_de_guia_falhou_com_http">EPG request failed with HTTP %1$s</string>
+    <!-- ES: Stalker request failed with HTTP {1} -->
+    <string name="a_solicitacao_stalker_falhou_com_http">Stalker request failed with HTTP %1$s</string>
+    <!-- ES: Playlist URL must use HTTP or HTTPS -->
+    <string name="a_url_da_playlist_deve_usar_http_ou_https">Playlist URL must use HTTP or HTTPS</string>
+    <!-- ES: Abre entradas que parecen archivos de película en el detalle VOD en vez del panel de directo -->
+    <string name="abre_entradas_que_parecem_arquivos_de_filme">Abre entradas que parecen archivos de película en el detalle VOD en vez del panel de directo</string>
+    <!-- ES: Abrir {1} -->
+    <string name="abrir">Abrir %1$s</string>
+    <!-- ES: Abrir detalle -->
+    <string name="abrir_detalhes">Abrir detalle</string>
+    <!-- ES: Acciones del historial -->
+    <string name="acoes_do_historico">Acciones del historial</string>
+    <!-- ES: Añadir archivo XMLTV -->
+    <string name="adicionar_arquivo_xmltv">Añadir archivo XMLTV</string>
+    <!-- ES: Añadir fuente -->
+    <string name="adicionar_fonte">Añadir fuente</string>
+    <!-- ES: Añadir playlist -->
+    <string name="adicionar_playlist">Añadir playlist</string>
+    <!-- ES: +  Añadir playlist -->
+    <string name="adicionar_playlist_2">+  Añadir playlist</string>
+    <!-- ES: ＋  Añadir playlist -->
+    <string name="adicionar_playlist_3">＋  Añadir playlist</string>
+    <!-- ES: Añade una fuente para empezar -->
+    <string name="adicione_uma_fonte_para_comecar">Añade una fuente para empezar</string>
+    <!-- ES: Añade una playlist para configurar su EPG. -->
+    <string name="adicione_uma_playlist_para_configurar_sua_gu">Añade una playlist para configurar su EPG.</string>
+    <!-- ES: Agente de usuario (opcional) -->
+    <string name="agente_de_usuario_opcional">Agente de usuario (opcional)</string>
+    <!-- ES: AHORA -->
+    <string name="agora">AHORA</string>
+    <!-- ES: No hay datos EPG cargados todavía. La guía Xtream se consulta automáticamente para los primeros canales; también puedes añadir una URL XMLTV. -->
+    <string name="ainda_nao_ha_dados_epg_carregados_a_guia_xtr">No hay datos EPG cargados todavía. La guía Xtream se consulta automáticamente para los primeros canales; también puedes añadir una URL XMLTV.</string>
+    <!-- ES: Aún no hay favoritos -->
+    <string name="ainda_nao_ha_favoritos">Aún no hay favoritos</string>
+    <!-- ES: Aún no hay historial. -->
+    <string name="ainda_nao_ha_historico">Aún no hay historial.</string>
+    <!-- ES: No hay playlists todavía -->
+    <string name="ainda_nao_ha_playlists">No hay playlists todavía</string>
+    <!-- ES: Ajusta el tamaño de las tarjetas de películas y series -->
+    <string name="ajusta_o_tamanho_dos_cartoes_de_filmes_e_ser">Ajusta el tamaño de las tarjetas de películas y series</string>
+    <!-- ES: all -->
+    <string name="all">all</string>
+    <!-- ES: Cambia cómo se muestran los programas en Guía TV; pulsa OK para alternar -->
+    <string name="altere_como_os_programas_aparecem_na_guia_tv">Cambia cómo se muestran los programas en Guía TV; pulsa OK para alternar</string>
+    <!-- ES: Cambia entre claro, oscuro y el tema del sistema -->
+    <string name="alterna_entre_claro_escuro_e_o_tema_do_siste">Cambia entre claro, oscuro y el tema del sistema</string>
+    <!-- ES: Anterior -->
+    <string name="anterior">Anterior</string>
+    <!-- ES: Al ocultarlos, el título aparece al enfocar una tarjeta con el mando -->
+    <string name="ao_oculta_los_o_titulo_aparece_ao_focar_um_c">Al ocultarlos, el título aparece al enfocar una tarjeta con el mando</string>
+    <!-- ES: DIRECTO -->
+    <string name="ao_vivo">DIRECTO</string>
+    <!-- ES: En directo -->
+    <string name="ao_vivo_2">En directo</string>
+    <!-- ES: Archivo local -->
+    <string name="arquivo_local">Archivo local</string>
+    <!-- ES: Archivo M3U -->
+    <string name="arquivo_m3u">Archivo M3U</string>
+    <!-- ES: {1} Se agotaron los {2} intentos de reconexión automática. -->
+    <string name="as_tentativas_de_reconexao_automatica_se_esg">%1$s Se agotaron los %2$s intentos de reconexión automática.</string>
+    <!-- ES: Firma 1 (opcional) -->
+    <string name="assinatura_1_opcional">Firma 1 (opcional)</string>
+    <!-- ES: Firma 2 (opcional) -->
+    <string name="assinatura_2_opcional">Firma 2 (opcional)</string>
+    <!-- ES: Retraso +0,5 s  ({1}) -->
+    <string name="atraso_0_5_s">Retraso +0,5 s  (%1$s)</string>
+    <!-- ES: Retraso −0,5 s  ({1}) -->
+    <string name="atraso_0_5_s_2">Retraso −0,5 s  (%1$s)</string>
+    <!-- ES: Actualización automática completada: {1} fuentes. -->
+    <string name="atualizacao_automatica_concluida_fontes">Actualización automática completada: %1$s fuentes.</string>
+    <!-- ES: Actualización automática: {1} correctas, {1} con error. -->
+    <string name="atualizacao_automatica_corretas_com_erro">Actualización automática: %1$s correctas, %1$s con error.</string>
+    <!-- ES: Actualizar -->
+    <string name="atualizar">Actualizar</string>
+    <!-- ES: Actualizar al arrancar -->
+    <string name="atualizar_ao_iniciar">Actualizar al arrancar</string>
+    <!-- ES: Audio: {1} -->
+    <string name="audio">Audio: %1$s</string>
+    <!-- ES: Aviso: si el portal ya recibió estos IDs, cambiarlos o borrarlos podría bloquear esta fuente. La edición no los vuelve a derivar. -->
+    <string name="aviso_se_o_portal_ja_recebeu_estes_ids_alter">Aviso: si el portal ya recibió estos IDs, cambiarlos o borrarlos podría bloquear esta fuente. La edición no los vuelve a derivar.</string>
+    <!-- ES: Backup restaurado: {1} fuente(s). -->
+    <string name="backup_restaurado_fonte_s">Backup restaurado: %1$s fuente(s).</string>
+    <!-- ES: Descargar -->
+    <string name="baixar">Descargar</string>
+    <!-- ES: Descargar episodio -->
+    <string name="baixar_episodio">Descargar episodio</string>
+    <!-- ES: Descargar temporada ({1}) -->
+    <string name="baixar_temporada">Descargar temporada (%1$s)</string>
+    <!-- ES: Bitrate de audio: {1} -->
+    <string name="bitrate_de_audio">Bitrate de audio: %1$s</string>
+    <!-- ES: Bitrate de vídeo: {1} -->
+    <string name="bitrate_de_video">Bitrate de vídeo: %1$s</string>
+    <!-- ES: Buffer: {1} -->
+    <string name="buffer">Buffer: %1$s</string>
+    <!-- ES: Caché TMDB -->
+    <string name="cache_tmdb">Caché TMDB</string>
+    <!-- ES: {1} canales · {2} -->
+    <string name="canais">%1$s canales · %2$s</string>
+    <!-- ES: {1} canales -->
+    <string name="canais_2">%1$s canales</string>
+    <!-- ES: Canales: {1} -->
+    <string name="canais_3">Canales: %1$s</string>
+    <!-- ES: Channel {1} -->
+    <string name="canal">Channel %1$s</string>
+    <!-- ES: Canal {1} -->
+    <string name="canal_2">Canal %1$s</string>
+    <!-- ES: Cancelar -->
+    <string name="cancelar">Cancelar</string>
+    <!-- ES: Cancelar descarga -->
+    <string name="cancelar_download">Cancelar descarga</string>
+    <!-- ES: Cargando… -->
+    <string name="carregando">Cargando…</string>
+    <!-- ES: Cargando más canales… -->
+    <string name="carregando_mais_canais">Cargando más canales…</string>
+    <!-- ES: Cargando tus playlists… -->
+    <string name="carregando_suas_playlists">Cargando tus playlists…</string>
+    <!-- ES: Cargar archivo SRT/VTT -->
+    <string name="carregar_arquivo_srt_vtt">Cargar archivo SRT/VTT</string>
+    <!-- ES: Cargar más películas -->
+    <string name="carregar_mais_filmes">Cargar más películas</string>
+    <!-- ES: Cargar más series -->
+    <string name="carregar_mais_series">Cargar más series</string>
+    <!-- ES: Catch-up -->
+    <string name="catch_up">Catch-up</string>
+    <!-- ES: Categorías -->
+    <string name="categorias">Categorías</string>
+    <!-- ES: category:{1} -->
+    <string name="category">category:%1$s</string>
+    <!-- ES: TMDB API key -->
+    <string name="chave_da_api_do_tmdb">TMDB API key</string>
+    <!-- ES: clearkey -->
+    <string name="clearkey">clearkey</string>
+    <!-- ES: Códec de audio: {1} -->
+    <string name="codec_de_audio">Códec de audio: %1$s</string>
+    <!-- ES: Códec de vídeo: {1} -->
+    <string name="codec_de_video">Códec de vídeo: %1$s</string>
+    <!-- ES: Pega aquí el mensaje del proveedor; se detectarán listas M3U, Xtream o Stalker. -->
+    <string name="cole_aqui_a_mensagem_do_provedor_playlists_m">Pega aquí el mensaje del proveedor; se detectarán listas M3U, Xtream o Stalker.</string>
+    <!-- ES: Pega un mensaje del proveedor o una lista M3U -->
+    <string name="cole_uma_mensagem_do_provedor_ou_uma_playlis">Pega un mensaje del proveedor o una lista M3U</string>
+    <!-- ES: com.widevine.alpha -->
+    <string name="com_widevine_alpha">com.widevine.alpha</string>
+    <!-- ES: Empezar de nuevo -->
+    <string name="comecar_de_novo">Empezar de nuevo</string>
+    <!-- ES: Empieza a ver algo -->
+    <string name="comece_a_assistir_agora">Empieza a ver algo</string>
+    <!-- ES: conectado -->
+    <string name="conectado">conectado</string>
+    <!-- ES: Conectar portal -->
+    <string name="conectar_portal">Conectar portal</string>
+    <!-- ES: Conectar Xtream -->
+    <string name="conectar_xtream">Conectar Xtream</string>
+    <!-- ES: Ajustes -->
+    <string name="configuracoes">Ajustes</string>
+    <!-- ES: Consultando el portal… -->
+    <string name="consultando_o_portal">Consultando el portal…</string>
+    <!-- ES: Cuenta -->
+    <string name="conta">Cuenta</string>
+    <!-- ES: Stalker account is blocked -->
+    <string name="conta_stalker_bloqueada">Stalker account is blocked</string>
+    <!-- ES: Contando catálogo… -->
+    <string name="contando_catalogo">Contando catálogo…</string>
+    <!-- ES: Copiar informe -->
+    <string name="copiar_relatorio">Copiar informe</string>
+    <!-- ES: Color: {1} -->
+    <string name="cor">Color: %1$s</string>
+    <!-- ES: Corrige la hora mostrada sin modificar los datos ni las URLs de catch-up; pulsa OK para alternar -->
+    <string name="corrige_a_hora_exibida_sem_modificar_os_dado">Corrige la hora mostrada sin modificar los datos ni las URLs de catch-up; pulsa OK para alternar</string>
+    <!-- ES: CREATE INDEX IF NOT EXISTS channels_group_name_page_idx ON channels( -->
+    <string name="create_index_if_not_exists_channels_group_na">CREATE INDEX IF NOT EXISTS channels_group_name_page_idx ON channels(</string>
+    <!-- ES: CREATE INDEX IF NOT EXISTS channels_group_page_idx ON channels( -->
+    <string name="create_index_if_not_exists_channels_group_pa">CREATE INDEX IF NOT EXISTS channels_group_page_idx ON channels(</string>
+    <!-- ES: Xtream URL credentials are not supported -->
+    <string name="credenciais_na_url_do_xtream_nao_sao_suporta">Xtream URL credentials are not supported</string>
+    <!-- ES: Credenciales Xtream -->
+    <string name="credenciais_xtream">Credenciales Xtream</string>
+    <!-- ES: DESPUÉS -->
+    <string name="depois">DESPUÉS</string>
+    <!-- ES: Derivar IDs del dispositivo desde la MAC (solo al importar) -->
+    <string name="derivar_ids_do_dispositivo_a_partir_do_mac_a">Derivar IDs del dispositivo desde la MAC (solo al importar)</string>
+    <!-- ES: Desactivar -->
+    <string name="desativar">Desactivar</string>
+    <!-- ES: unknown -->
+    <string name="desconhecido">unknown</string>
+    <!-- ES: ¿Quieres eliminar «{1}» y sus datos guardados? -->
+    <string name="deseja_excluir_e_seus_dados_salvos">¿Quieres eliminar «%1$s» y sus datos guardados?</string>
+    <!-- ES: ¿Quieres volver a los valores iniciales? Las fuentes y sus datos se conservarán. -->
+    <string name="deseja_voltar_aos_valores_iniciais_as_fontes">¿Quieres volver a los valores iniciales? Las fuentes y sus datos se conservarán.</string>
+    <!-- ES: Desfase horario EPG -->
+    <string name="deslocamento_horario_epg">Desfase horario EPG</string>
+    <!-- ES: Detalles técnicos -->
+    <string name="detalhes_tecnicos">Detalles técnicos</string>
+    <!-- ES: Detección -->
+    <string name="deteccao">Detección</string>
+    <!-- ES: Detectar y añadir -->
+    <string name="detectar_e_adicionar">Detectar y añadir</string>
+    <!-- ES: ‹ Día anterior -->
+    <string name="dia_anterior">‹ Día anterior</string>
+    <!-- ES: Diagnóstico de reproducción -->
+    <string name="diagnostico_de_reproducao">Diagnóstico de reproducción</string>
+    <!-- ES: Diagnóstico IPTVnator -->
+    <string name="diagnostico_iptvnator">Diagnóstico IPTVnator</string>
+    <!-- ES: Introduce el identificador channel-id del XMLTV. Déjalo vacío para volver al mapeo automático. -->
+    <string name="digite_o_identificador_channel_id_do_xmltv_d">Introduce el identificador channel-id del XMLTV. Déjalo vacío para volver al mapeo automático.</string>
+    <!-- ES: Introduce el portal Ministra/Stalker y la MAC del dispositivo -->
+    <string name="digite_o_portal_ministra_stalker_e_o_mac_do">Introduce el portal Ministra/Stalker y la MAC del dispositivo</string>
+    <!-- ES: Escribe al menos 2 caracteres para buscar en tus fuentes. -->
+    <string name="digite_pelo_menos_2_caracteres_para_pesquisa">Escribe al menos 2 caracteres para buscar en tus fuentes.</string>
+    <!-- ES: Escribe al menos dos caracteres para buscar. -->
+    <string name="digite_pelo_menos_dois_caracteres_para_pesqu">Escribe al menos dos caracteres para buscar.</string>
+    <!-- ES: Descarga no reanudable -->
+    <string name="download_nao_retomavel">Descarga no reanudable</string>
+    <!-- ES: Duración: {1} -->
+    <string name="duracao">Duración: %1$s</string>
+    <!-- ES: Editar datos -->
+    <string name="editar_dados">Editar datos</string>
+    <!-- ES: {1} entradas -->
+    <string name="entradas">%1$s entradas</string>
+    <!-- ES: EPG -->
+    <string name="epg">EPG</string>
+    <!-- ES: {1} · Episodio {1} -->
+    <string name="episodio">%1$s · Episodio %1$s</string>
+    <!-- ES: Episodios -->
+    <string name="episodios">Episodios</string>
+    <!-- ES: Error de descarga. -->
+    <string name="erro_de_download">Error de descarga.</string>
+    <!-- ES: Elige cómo quieres conectar. Puedes cambiar el nombre después. -->
+    <string name="escolha_como_quer_conectar_voce_pode_mudar_o">Elige cómo quieres conectar. Puedes cambiar el nombre después.</string>
+    <!-- ES: Elige cómo quieres conectarte. Puedes cambiar el nombre después. -->
+    <string name="escolha_como_quer_se_conectar_voce_pode_muda">Elige cómo quieres conectarte. Puedes cambiar el nombre después.</string>
+    <!-- ES: Elegir archivo M3U -->
+    <string name="escolher_arquivo_m3u">Elegir archivo M3U</string>
+    <!-- ES: Elegir subtítulos -->
+    <string name="escolher_legendas">Elegir subtítulos</string>
+    <!-- ES: Esta fuente no tiene una URL o archivo M3U compatible para actualizar -->
+    <string name="esta_fonte_nao_tem_uma_url_ou_arquivo_m3u_co">Esta fuente no tiene una URL o archivo M3U compatible para actualizar</string>
+    <!-- ES: This Stalker portal requires username and password -->
+    <string name="este_portal_stalker_exige_usuario_e_senha">This Stalker portal requires username and password</string>
+    <!-- ES: Este VOD requiere un enlace efímero del proveedor y no se puede descargar. -->
+    <string name="este_vod_requer_um_link_temporario_do_proved">Este VOD requiere un enlace efímero del proveedor y no se puede descargar.</string>
+    <!-- ES: Vaciar caché TMDB -->
+    <string name="esvaziar_cache_tmdb">Vaciar caché TMDB</string>
+    <!-- ES: Eliminar -->
+    <string name="excluir">Eliminar</string>
+    <!-- ES: Borrar -->
+    <string name="excluir_2">Borrar</string>
+    <!-- ES: Eliminar fuente -->
+    <string name="excluir_fonte">Eliminar fuente</string>
+    <!-- ES: Borrar historial -->
+    <string name="excluir_historico">Borrar historial</string>
+    <!-- ES: Exporta o restaura tus fuentes IPTV. El archivo incluye las credenciales necesarias para recuperar Xtream y Stalker; guárdalo en un lugar seguro. -->
+    <string name="exporte_ou_restaure_suas_fontes_iptv_o_arqui">Exporta o restaura tus fuentes IPTV. El archivo incluye las credenciales necesarias para recuperar Xtream y Stalker; guárdalo en un lugar seguro.</string>
+    <!-- ES: Failover VOD Xtream -->
+    <string name="failover_vod_xtream">Failover VOD Xtream</string>
+    <!-- ES: Pista integrada -->
+    <string name="faixa_integrada">Pista integrada</string>
+    <!-- ES: favorites -->
+    <string name="favorites">favorites</string>
+    <!-- ES: Favoritos -->
+    <string name="favoritos">Favoritos</string>
+    <!-- ES: Cerrar -->
+    <string name="fechar">Cerrar</string>
+    <!-- ES: Cerrar búsqueda -->
+    <string name="fechar_pesquisa">Cerrar búsqueda</string>
+    <!-- ES: Cerrar búsqueda de grupos -->
+    <string name="fechar_pesquisa_de_grupos">Cerrar búsqueda de grupos</string>
+    <!-- ES: Quedó en {1} -->
+    <string name="ficou_em">Quedó en %1$s</string>
+    <!-- ES: Películas: {1} -->
+    <string name="filmes">Películas: %1$s</string>
+    <!-- ES: Filtrar y ordenar playlists -->
+    <string name="filtrar_e_ordenar_playlists">Filtrar y ordenar playlists</string>
+    <!-- ES: Fuente: {1} -->
+    <string name="fonte">Fuente: %1$s</string>
+    <!-- ES: Fuente desconocida -->
+    <string name="fonte_desconhecida">Fuente desconocida</string>
+    <!-- ES: Fuentes -->
+    <string name="fontes">Fuentes</string>
+    <!-- ES: Fuentes utilizadas -->
+    <string name="fontes_em_uso">Fuentes utilizadas</string>
+    <!-- ES: Fuentes XMLTV -->
+    <string name="fontes_xmltv">Fuentes XMLTV</string>
+    <!-- ES: Se quitaron {1} entradas. Los archivos ya descargados se conservaron. -->
+    <string name="foram_removidas_entradas_os_arquivos_ja_baix">Se quitaron %1$s entradas. Los archivos ya descargados se conservaron.</string>
+    <!-- ES: Formato: {1} -->
+    <string name="formato">Formato: %1$s</string>
+    <!-- ES: Formato para TV en directo Xtream; pulsa OK para alternar -->
+    <string name="formato_para_tv_ao_vivo_xtream_pressione_ok">Formato para TV en directo Xtream; pulsa OK para alternar</string>
+    <!-- ES: Formato Xtream -->
+    <string name="formato_xtream">Formato Xtream</string>
+    <!-- ES: Frames descartados: {1} -->
+    <string name="frames_descartados">Frames descartados: %1$s</string>
+    <!-- ES: Frames renderizados: {1} -->
+    <string name="frames_renderizados">Frames renderizados: %1$s</string>
+    <!-- ES: Gestionar -->
+    <string name="gerenciar">Gestionar</string>
+    <!-- ES: Gestionar categorías -->
+    <string name="gerenciar_categorias">Gestionar categorías</string>
+    <!-- ES: Gestiona esta playlist -->
+    <string name="gerenciar_esta_playlist">Gestiona esta playlist</string>
+    <!-- ES: Gestionar grupos -->
+    <string name="gerenciar_grupos">Gestionar grupos</string>
+    <!-- ES: Gestiona este elemento del historial -->
+    <string name="gerencie_este_item_do_historico">Gestiona este elemento del historial</string>
+    <!-- ES: Grabación guardada: {1} -->
+    <string name="gravacao_salva">Grabación guardada: %1$s</string>
+    <!-- ES: Grabaciones de TV -->
+    <string name="gravacoes_de_tv">Grabaciones de TV</string>
+    <!-- ES: Grupo: {1}  › -->
+    <string name="grupo">Grupo: %1$s  ›</string>
+    <!-- ES: EPG: {1} -->
+    <string name="guia">EPG: %1$s</string>
+    <!-- ES: gzip -->
+    <string name="gzip">gzip</string>
+    <!-- ES: Hoy -->
+    <string name="hoje">Hoy</string>
+    <!-- ES: https://image.tmdb.org/t/p/w1280{1} -->
+    <string name="https_image_tmdb_org_t_p_w1280">https://image.tmdb.org/t/p/w1280%1$s</string>
+    <!-- ES: https://image.tmdb.org/t/p/w500{1} -->
+    <string name="https_image_tmdb_org_t_p_w500">https://image.tmdb.org/t/p/w500%1$s</string>
+    <!-- ES: ⓘ  Información de playlist -->
+    <string name="i_informacoes_da_playlist">ⓘ  Información de playlist</string>
+    <!-- ES: Device ID 1 (opcional) -->
+    <string name="id_do_dispositivo_1_opcional">Device ID 1 (opcional)</string>
+    <!-- ES: Device ID 2 (opcional) -->
+    <string name="id_do_dispositivo_2_opcional">Device ID 2 (opcional)</string>
+    <!-- ES: ID XMLTV -->
+    <string name="id_xmltv">ID XMLTV</string>
+    <!-- ES: identity -->
+    <string name="identity">identity</string>
+    <!-- ES: (?im)^(?:password|pass|contraseña)\s*[:=]\s*(\S+) -->
+    <string name="im_password_pass_contrasena_s_s_s">(?im)^(?:password|pass|contraseña)\s*[:=]\s*(\S+)</string>
+    <!-- ES: (?im)^(?:user(?:name)?|usuario)\s*[:=]\s*(\S+) -->
+    <string name="im_user_name_usuario_s_s_s">(?im)^(?:user(?:name)?|usuario)\s*[:=]\s*(\S+)</string>
+    <!-- ES: Importa desde el dispositivo -->
+    <string name="importa_do_dispositivo">Importa desde el dispositivo</string>
+    <!-- ES: Info -->
+    <string name="info">Info</string>
+    <!-- ES: Información -->
+    <string name="informacoes">Información</string>
+    <!-- ES: ♙  Información de cuenta -->
+    <string name="informacoes_da_conta">♙  Información de cuenta</string>
+    <!-- ES: Información de cuenta -->
+    <string name="informacoes_da_conta_2">Información de cuenta</string>
+    <!-- ES: Información de playlist -->
+    <string name="informacoes_da_playlist">Información de playlist</string>
+    <!-- ES: Introduce los datos del portal Stalker -->
+    <string name="informe_os_dados_do_portal_stalker">Introduce los datos del portal Stalker</string>
+    <!-- ES: Introduce los datos de tu servidor Xtream -->
+    <string name="informe_os_dados_do_seu_servidor_xtream">Introduce los datos de tu servidor Xtream</string>
+    <!-- ES: Inicia el contenido al abrirlo; pulsa OK para cambiarlo -->
+    <string name="inicia_o_conteudo_ao_abrir_pressione_ok_para">Inicia el contenido al abrirlo; pulsa OK para cambiarlo</string>
+    <!-- ES: Inicio -->
+    <string name="inicio">Inicio</string>
+    <!-- ES: IPTVnator -->
+    <string name="iptvnator">IPTVnator</string>
+    <!-- ES: iptvnator-download -->
+    <string name="iptvnator_download">iptvnator-download</string>
+    <!-- ES: IPTVnator · Descargas -->
+    <string name="iptvnator_downloads">IPTVnator · Descargas</string>
+    <!-- ES: IPTVnator-GoogleTV -->
+    <string name="iptvnator_googletv">IPTVnator-GoogleTV</string>
+    <!-- ES: IPTVnator para Google TV · cliente IPTV basado en M3U, Xtream Codes y Stalker. -->
+    <string name="iptvnator_para_google_tv_cliente_iptv_basead">IPTVnator para Google TV · cliente IPTV basado en M3U, Xtream Codes y Stalker.</string>
+    <!-- ES: iptvnator-recording -->
+    <string name="iptvnator_recording">iptvnator-recording</string>
+    <!-- ES: is_favorite = 0 AND is_watched = 0 AND last_played_at IS NULL -->
+    <string name="is_favorite_0_and_is_watched_0_and_last_play">is_favorite = 0 AND is_watched = 0 AND last_played_at IS NULL</string>
+    <!-- ES: Item {1} -->
+    <string name="item">Item %1$s</string>
+    <!-- ES: last_played_at IS NOT NULL -->
+    <string name="last_played_at_is_not_null">last_played_at IS NOT NULL</string>
+    <!-- ES: Subtítulos -->
+    <string name="legendas">Subtítulos</string>
+    <!-- ES: Subtítulos cargados -->
+    <string name="legendas_carregadas">Subtítulos cargados</string>
+    <!-- ES: Limpiar -->
+    <string name="limpar">Limpiar</string>
+    <!-- ES: Limpiar {1} -->
+    <string name="limpar_2">Limpiar %1$s</string>
+    <!-- ES: Limpiar terminadas -->
+    <string name="limpar_concluidas">Limpiar terminadas</string>
+    <!-- ES: Limpiar favoritos de {1} -->
+    <string name="limpar_favoritos_de">Limpiar favoritos de %1$s</string>
+    <!-- ES: Limpiar búsqueda -->
+    <string name="limpar_pesquisa">Limpiar búsqueda</string>
+    <!-- ES: Enlace remoto .m3u o .m3u8 -->
+    <string name="link_remoto_m3u_ou_m3u8">Enlace remoto .m3u o .m3u8</string>
+    <!-- ES: live -->
+    <string name="live">live</string>
+    <!-- ES: MAC (00:1A:79:AA:BB:CC) -->
+    <string name="mac_00_1a_79_aa_bb_cc">MAC (00:1A:79:AA:BB:CC)</string>
+    <!-- ES: MAC no válida: usa 12 dígitos hexadecimales -->
+    <string name="mac_invalido_use_12_digitos_hexadecimais">MAC no válida: usa 12 dígitos hexadecimales</string>
+    <!-- ES: Mapeo EPG eliminado: {1} -->
+    <string name="mapeamento_de_guia_excluido">Mapeo EPG eliminado: %1$s</string>
+    <!-- ES: Mapeo EPG guardado: {1} -->
+    <string name="mapeamento_de_guia_salvo">Mapeo EPG guardado: %1$s</string>
+    <!-- ES: Mapear EPG -->
+    <string name="mapear_epg">Mapear EPG</string>
+    <!-- ES: Marca con la estrella cualquier canal, película o serie para guardarlo aquí. -->
+    <string name="marque_com_a_estrela_qualquer_canal_filme_ou">Marca con la estrella cualquier canal, película o serie para guardarlo aquí.</string>
+    <!-- ES: media-{1}.mp4 -->
+    <string name="media_mp4">media-%1$s.mp4</string>
+    <!-- ES: medium -->
+    <string name="medium">medium</string>
+    <!-- ES: Mensaje del proveedor o texto M3U -->
+    <string name="mensagem_do_provedor_ou_texto_m3u">Mensaje del proveedor o texto M3U</string>
+    <!-- ES: Metadatos guardados localmente para abrir antes los detalles -->
+    <string name="metadados_salvos_localmente_para_abrir_os_de">Metadatos guardados localmente para abrir antes los detalles</string>
+    <!-- ES: Muestra Inicio en la navegación; al ocultarlo la app comienza en Fuentes -->
+    <string name="mostra_inicio_na_navegacao_ao_oculta_lo_o_ap">Muestra Inicio en la navegación; al ocultarlo la app comienza en Fuentes</string>
+    <!-- ES: Mostrar Dashboard -->
+    <string name="mostrar_dashboard">Mostrar Dashboard</string>
+    <!-- ES: Mostrar todos -->
+    <string name="mostrar_todos">Mostrar todos</string>
+    <!-- ES: %.1f Mbps -->
+    <string name="n_1f_mbps">%.1f Mbps</string>
+    <!-- ES:  · %.2f fps -->
+    <string name="n_2f_fps"> · %.2f fps</string>
+    <!-- ES: (name COLLATE NOCASE {1} ? COLLATE NOCASE OR  -->
+    <string name="name_collate_nocase_collate_nocase_or">(name COLLATE NOCASE %1$s ? COLLATE NOCASE OR </string>
+    <!-- ES: name COLLATE NOCASE {1}, id {1} -->
+    <string name="name_collate_nocase_id">name COLLATE NOCASE %1$s, id %1$s</string>
+    <!-- ES: No es un backup de IPTVnator -->
+    <string name="nao_e_um_backup_do_iptvnator">No es un backup de IPTVnator</string>
+    <!-- ES: No se pudo abrir la serie. -->
+    <string name="nao_foi_possivel_abrir_a_serie">No se pudo abrir la serie.</string>
+    <!-- ES: No se pudo añadir el archivo XMLTV -->
+    <string name="nao_foi_possivel_adicionar_o_arquivo_xmltv">No se pudo añadir el archivo XMLTV</string>
+    <!-- ES: No se pudo actualizar la fuente. -->
+    <string name="nao_foi_possivel_atualizar_a_fonte">No se pudo actualizar la fuente.</string>
+    <!-- ES: No se pudo actualizar el EPG. -->
+    <string name="nao_foi_possivel_atualizar_o_guia">No se pudo actualizar el EPG.</string>
+    <!-- ES: No se pudo descargar el episodio. -->
+    <string name="nao_foi_possivel_baixar_o_episodio">No se pudo descargar el episodio.</string>
+    <!-- ES: No se pudo descargar el programa. -->
+    <string name="nao_foi_possivel_baixar_o_programa">No se pudo descargar el programa.</string>
+    <!-- ES: No se pudieron cargar los subtítulos -->
+    <string name="nao_foi_possivel_carregar_as_legendas">No se pudieron cargar los subtítulos</string>
+    <!-- ES: No se ha podido cargar esta fuente. Comprueba los datos de conexión y vuelve a intentarlo. -->
+    <string name="nao_foi_possivel_carregar_esta_fonte_verifiq">No se ha podido cargar esta fuente. Comprueba los datos de conexión y vuelve a intentarlo.</string>
+    <!-- ES: No se pudo conectar con Stalker -->
+    <string name="nao_foi_possivel_conectar_com_o_stalker">No se pudo conectar con Stalker</string>
+    <!-- ES: No se pudo consultar la cuenta del portal. -->
+    <string name="nao_foi_possivel_consultar_a_conta_do_portal">No se pudo consultar la cuenta del portal.</string>
+    <!-- ES: No se pudo copiar la URL catch-up. -->
+    <string name="nao_foi_possivel_copiar_a_url_catch_up">No se pudo copiar la URL catch-up.</string>
+    <!-- ES: No se pudo detectar la fuente -->
+    <string name="nao_foi_possivel_detectar_a_fonte">No se pudo detectar la fuente</string>
+    <!-- ES: No se pudo importar la fuente -->
+    <string name="nao_foi_possivel_importar_a_fonte">No se pudo importar la fuente</string>
+    <!-- ES: No se pudo importar el archivo M3U -->
+    <string name="nao_foi_possivel_importar_o_arquivo_m3u">No se pudo importar el archivo M3U</string>
+    <!-- ES: No se pudo importar el texto M3U -->
+    <string name="nao_foi_possivel_importar_o_texto_m3u">No se pudo importar el texto M3U</string>
+    <!-- ES: No se pudo iniciar la reproducción del programa. -->
+    <string name="nao_foi_possivel_iniciar_a_reproducao_do_pro">No se pudo iniciar la reproducción del programa.</string>
+    <!-- ES: No se pudo iniciar la descarga. -->
+    <string name="nao_foi_possivel_iniciar_o_download">No se pudo iniciar la descarga.</string>
+    <!-- ES: M3U channel could not be inserted without an ID collision -->
+    <string name="nao_foi_possivel_inserir_o_canal_m3u_sem_col">M3U channel could not be inserted without an ID collision</string>
+    <!-- ES: No se pudo renombrar la fuente -->
+    <string name="nao_foi_possivel_renomear_a_fonte">No se pudo renombrar la fuente</string>
+    <!-- ES: No se pudo renombrar la playlist -->
+    <string name="nao_foi_possivel_renomear_a_playlist">No se pudo renombrar la playlist</string>
+    <!-- ES: No se pudo reproducir la fuente -->
+    <string name="nao_foi_possivel_reproduzir_a_fonte">No se pudo reproducir la fuente</string>
+    <!-- ES: No se pudo restaurar el backup: {1} -->
+    <string name="nao_foi_possivel_restaurar_o_backup">No se pudo restaurar el backup: %1$s</string>
+    <!-- ES: No se pudo guardar el backup: {1} -->
+    <string name="nao_foi_possivel_salvar_o_backup">No se pudo guardar el backup: %1$s</string>
+    <!-- ES: No se pudo reintentar la descarga. -->
+    <string name="nao_foi_possivel_tentar_o_download_novamente">No se pudo reintentar la descarga.</string>
+    <!-- ES: No hay archivos M3U accesibles en las carpetas compartidas. Puedes añadir la URL de la lista o pegar su contenido M3U. -->
+    <string name="nao_ha_arquivos_m3u_acessiveis_nas_pastas_co">No hay archivos M3U accesibles en las carpetas compartidas. Puedes añadir la URL de la lista o pegar su contenido M3U.</string>
+    <!-- ES: No hay archivos SRT, VTT, SSA o ASS en Descargas. -->
+    <string name="nao_ha_arquivos_srt_vtt_ssa_ou_ass_em_downlo">No hay archivos SRT, VTT, SSA o ASS en Descargas.</string>
+    <!-- ES: No hay categorías disponibles en esta playlist. -->
+    <string name="nao_ha_categorias_disponiveis_nesta_playlist">No hay categorías disponibles en esta playlist.</string>
+    <!-- ES: No hay coincidencias en la programación guardada para este filtro. -->
+    <string name="nao_ha_correspondencias_na_programacao_salva">No hay coincidencias en la programación guardada para este filtro.</string>
+    <!-- ES: No hay descargas terminadas para limpiar. -->
+    <string name="nao_ha_downloads_concluidos_para_limpar">No hay descargas terminadas para limpiar.</string>
+    <!-- ES: No hay fuentes en este filtro. -->
+    <string name="nao_ha_fontes_neste_filtro">No hay fuentes en este filtro.</string>
+    <!-- ES: No hay fuentes guardadas. -->
+    <string name="nao_ha_fontes_salvas">No hay fuentes guardadas.</string>
+    <!-- ES: No hay grupos disponibles en esta playlist. -->
+    <string name="nao_ha_grupos_disponiveis_nesta_playlist">No hay grupos disponibles en esta playlist.</string>
+    <!-- ES: No hay información de programa -->
+    <string name="nao_ha_informacoes_do_programa">No hay información de programa</string>
+    <!-- ES: No hay playlists disponibles. -->
+    <string name="nao_ha_playlists_disponiveis">No hay playlists disponibles.</string>
+    <!-- ES: No se encontraron grupos. -->
+    <string name="nenhum_grupo_encontrado">No se encontraron grupos.</string>
+    <!-- ES: En Xtream usa primero las fuentes XMLTV configuradas; si están vacías, vuelve al EPG del proveedor -->
+    <string name="no_xtream_use_primeiro_as_fontes_xmltv_confi">En Xtream usa primero las fuentes XMLTV configuradas; si están vacías, vuelve al EPG del proveedor</string>
+    <!-- ES: Nombre -->
+    <string name="nome">Nombre</string>
+    <!-- ES: Nombre de playlist -->
+    <string name="nome_da_playlist">Nombre de playlist</string>
+    <!-- ES: Número de serie (opcional) -->
+    <string name="numero_de_serie_opcional">Número de serie (opcional)</string>
+    <!-- ES: Android no puede continuar el parcial de esta descarga anterior.  -->
+    <string name="o_android_nao_pode_continuar_o_parcial_deste">Android no puede continuar el parcial de esta descarga anterior. </string>
+    <!-- ES: Stalker MAC address is required -->
+    <string name="o_endereco_mac_do_stalker_e_obrigatorio">Stalker MAC address is required</string>
+    <!-- ES: XMLTV import writer is closed -->
+    <string name="o_gravador_de_importacao_xmltv_esta_fechado">XMLTV import writer is closed</string>
+    <!-- ES: Stalker handshake did not return a token -->
+    <string name="o_handshake_do_stalker_nao_retornou_um_token">Stalker handshake did not return a token</string>
+    <!-- ES: La MAC debe tener 12 dígitos hexadecimales (por ejemplo 00:1A:79:AA:BB:CC) -->
+    <string name="o_mac_deve_ter_12_digitos_hexadecimais_por_e">La MAC debe tener 12 dígitos hexadecimales (por ejemplo 00:1A:79:AA:BB:CC)</string>
+    <!-- ES: El nombre de la playlist no puede estar vacío -->
+    <string name="o_nome_da_playlist_nao_pode_ficar_vazio">El nombre de la playlist no puede estar vacío</string>
+    <!-- ES: Stalker portal must use HTTP or HTTPS -->
+    <string name="o_portal_stalker_deve_usar_http_ou_https">Stalker portal must use HTTP or HTTPS</string>
+    <!-- ES: Stalker portal did not return a playable episode link -->
+    <string name="o_portal_stalker_nao_retornou_um_link_de_epi">Stalker portal did not return a playable episode link</string>
+    <!-- ES: Stalker portal did not return a playable link -->
+    <string name="o_portal_stalker_nao_retornou_um_link_reprod">Stalker portal did not return a playable link</string>
+    <!-- ES: Catch-up programme must have a positive duration -->
+    <string name="o_programa_de_catch_up_deve_ter_uma_duracao">Catch-up programme must have a positive duration</string>
+    <!-- ES: El servidor no entregó datos. -->
+    <string name="o_servidor_nao_retornou_dados">El servidor no entregó datos.</string>
+    <!-- ES: Xtream server must use HTTP or HTTPS -->
+    <string name="o_servidor_xtream_deve_usar_http_ou_https">Xtream server must use HTTP or HTTPS</string>
+    <!-- ES: Xtream username is required -->
+    <string name="o_usuario_xtream_e_obrigatorio">Xtream username is required</string>
+    <!-- ES: Ocultar todos -->
+    <string name="ocultar_todos">Ocultar todos</string>
+    <!-- ES: Oculta categorías de {1} que no quieras mostrar. -->
+    <string name="oculte_categorias_de_que_nao_quiser_mostrar">Oculta categorías de %1$s que no quieras mostrar.</string>
+    <!-- ES: Oculta categorías de TV en directo que no quieras mostrar. -->
+    <string name="oculte_categorias_de_tv_ao_vivo_que_voce_nao">Oculta categorías de TV en directo que no quieras mostrar.</string>
+    <!-- ES: Opciones avanzadas -->
+    <string name="opcoes_avancadas">Opciones avanzadas</string>
+    <!-- ES: Opt-in: algunos portales vinculan estos IDs permanentemente a la MAC. Si ya escribiste IDs, bórralos antes de activar esta opción. -->
+    <string name="opt_in_alguns_portais_vinculam_estes_ids_per">Opt-in: algunos portales vinculan estos IDs permanentemente a la MAC. Si ya escribiste IDs, bórralos antes de activar esta opción.</string>
+    <!-- ES: Orden -->
+    <string name="ordem">Orden</string>
+    <!-- ES: Orden de grupos: {1} -->
+    <string name="ordem_dos_grupos">Orden de grupos: %1$s</string>
+    <!-- ES: Ordenadas por la fecha proporcionada por el portal -->
+    <string name="ordenadas_pela_data_fornecida_pelo_portal">Ordenadas por la fecha proporcionada por el portal</string>
+    <!-- ES: ORDENAR -->
+    <string name="ordenar">ORDENAR</string>
+    <!-- ES: Ordenar -->
+    <string name="ordenar_2">Ordenar</string>
+    <!-- ES: Ordenar grupos -->
+    <string name="ordenar_grupos">Ordenar grupos</string>
+    <!-- ES: {1}{2}.orEmpty()} -->
+    <string name="orempty">%1$s%2$s.orEmpty()}</string>
+    <!-- ES: Origin (opcional) -->
+    <string name="origin_opcional">Origin (opcional)</string>
+    <!-- ES: PARA EMPEZAR -->
+    <string name="para_comecar">PARA EMPEZAR</string>
+    <!-- ES: Detener -->
+    <string name="parar">Detener</string>
+    <!-- ES: Detener sincronización -->
+    <string name="parar_sincronizacao">Detener sincronización</string>
+    <!-- ES: Pausar -->
+    <string name="pausar">Pausar</string>
+    <!-- ES: Buscando archivos… -->
+    <string name="pesquisando_arquivos">Buscando archivos…</string>
+    <!-- ES: Buscando en la programación guardada… -->
+    <string name="pesquisando_na_programacao_salva">Buscando en la programación guardada…</string>
+    <!-- ES: Buscar -->
+    <string name="pesquisar">Buscar</string>
+    <!-- ES: Buscar canal… -->
+    <string name="pesquisar_canal">Buscar canal…</string>
+    <!-- ES: Buscar canal -->
+    <string name="pesquisar_canal_2">Buscar canal</string>
+    <!-- ES: Buscar contenido -->
+    <string name="pesquisar_conteudo">Buscar contenido</string>
+    <!-- ES: Buscar en todas las playlists... -->
+    <string name="pesquisar_em_todas_as_playlists">Buscar en todas las playlists...</string>
+    <!-- ES: Buscar en todas las playlists -->
+    <string name="pesquisar_em_todas_as_playlists_2">Buscar en todas las playlists</string>
+    <!-- ES: Buscar película -->
+    <string name="pesquisar_filme">Buscar película</string>
+    <!-- ES: Buscar grupo -->
+    <string name="pesquisar_grupo">Buscar grupo</string>
+    <!-- ES: Buscar grupos -->
+    <string name="pesquisar_grupos">Buscar grupos</string>
+    <!-- ES: Buscar playlist -->
+    <string name="pesquisar_playlist">Buscar playlist</string>
+    <!-- ES: Buscar programas por título o descripción -->
+    <string name="pesquisar_programas_por_titulo_ou_descricao">Buscar programas por título o descripción</string>
+    <!-- ES: Buscar serie -->
+    <string name="pesquisar_serie">Buscar serie</string>
+    <!-- ES: PIP -->
+    <string name="pip">PIP</string>
+    <!-- ES: Lista -->
+    <string name="playlist">Lista</string>
+    <!-- ES: Playlist de texto -->
+    <string name="playlist_de_texto">Playlist de texto</string>
+    <!-- ES: Playlist detectada -->
+    <string name="playlist_detectada">Playlist detectada</string>
+    <!-- ES: playlist_id = ? -->
+    <string name="playlist_id">playlist_id = ?</string>
+    <!-- ES: playlist_id = ? AND channel_number = ? -->
+    <string name="playlist_id_and_channel_number">playlist_id = ? AND channel_number = ?</string>
+    <!-- ES: playlist_id = ? AND channel_number = ? AND radio = ? -->
+    <string name="playlist_id_and_channel_number_and_radio">playlist_id = ? AND channel_number = ? AND radio = ?</string>
+    <!-- ES: playlist_id = ? AND is_favorite = 0 AND is_watched = 0 AND last_played_at IS NULL -->
+    <string name="playlist_id_and_is_favorite_0_and_is_watched">playlist_id = ? AND is_favorite = 0 AND is_watched = 0 AND last_played_at IS NULL</string>
+    <!-- ES: playlist_id = ? AND last_played_at IS NOT NULL -->
+    <string name="playlist_id_and_last_played_at_is_not_null">playlist_id = ? AND last_played_at IS NOT NULL</string>
+    <!-- ES: playlist_id = ? AND radio = ? -->
+    <string name="playlist_id_and_radio">playlist_id = ? AND radio = ?</string>
+    <!-- ES: Local playlist -->
+    <string name="playlist_local">Local playlist</string>
+    <!-- ES: Remote playlist -->
+    <string name="playlist_remota">Remote playlist</string>
+    <!-- ES: Playlist restaurada -->
+    <string name="playlist_restaurada">Playlist restaurada</string>
+    <!-- ES: Xtream playlist -->
+    <string name="playlist_xtream">Xtream playlist</string>
+    <!-- ES: Portal -->
+    <string name="portal">Portal</string>
+    <!-- ES: Portal no disponible -->
+    <string name="portal_indisponivel">Portal no disponible</string>
+    <!-- ES: Portal o URL /c -->
+    <string name="portal_ou_url_c">Portal o URL /c</string>
+    <!-- ES: Portal Stalker -->
+    <string name="portal_stalker">Portal Stalker</string>
+    <!-- ES: Stalker portal rejected credentials -->
+    <string name="portal_stalker_rejeitou_as_credenciais">Stalker portal rejected credentials</string>
+    <!-- ES: Posición: {1} · Duración: {2} -->
+    <string name="posicao_duracao">Posición: %1$s · Duración: %2$s</string>
+    <!-- ES: Preferencia inicial del reproductor; pulsa OK para cambiarla -->
+    <string name="preferencia_inicial_do_reprodutor_pressione">Preferencia inicial del reproductor; pulsa OK para cambiarla</string>
+    <!-- ES: Preferir XMLTV manual -->
+    <string name="preferir_xmltv_manual">Preferir XMLTV manual</string>
+    <!-- ES: Prefijos de canal -->
+    <string name="prefixos_de_canal">Prefijos de canal</string>
+    <!-- ES: Programa -->
+    <string name="programa">Programa</string>
+    <!-- ES: Programas coincidentes · {1} -->
+    <string name="programas_correspondentes">Programas coincidentes · %1$s</string>
+    <!-- ES: Proveedor: {1} -->
+    <string name="provedor">Proveedor: %1$s</string>
+    <!-- ES: Siguiente -->
+    <string name="proximo">Siguiente</string>
+    <!-- ES: Día siguiente › -->
+    <string name="proximo_dia">Día siguiente ›</string>
+    <!-- ES: Calidad -->
+    <string name="qualidade">Calidad</string>
+    <!-- ES: ● REC -->
+    <string name="rec">● REC</string>
+    <!-- ES: Recientes -->
+    <string name="recentes">Recientes</string>
+    <!-- ES: Reconexión automática de directos -->
+    <string name="reconexao_automatica_de_canais_ao_vivo">Reconexión automática de directos</string>
+    <!-- ES: Reconocer películas M3U -->
+    <string name="reconhecer_filmes_m3u">Reconocer películas M3U</string>
+    <!-- ES: Restablece las preferencias de la app para TV (vista inicial, subtítulos y panel de Inicio). Tus playlists, credenciales, favoritos e historial no se borran. -->
+    <string name="redefine_as_preferencias_do_app_para_tv_vist">Restablece las preferencias de la app para TV (vista inicial, subtítulos y panel de Inicio). Tus playlists, credenciales, favoritos e historial no se borran.</string>
+    <!-- ES: Restablecer retraso -->
+    <string name="redefinir_atraso">Restablecer retraso</string>
+    <!-- ES: Referer (opcional) -->
+    <string name="referer_opcional">Referer (opcional)</string>
+    <!-- ES: Quita etiquetas como ES | solo del nombre visible del canal -->
+    <string name="remova_etiquetas_como_es_apenas_do_nome_visi">Quita etiquetas como ES | solo del nombre visible del canal</string>
+    <!-- ES: Quitar -->
+    <string name="remover">Quitar</string>
+    <!-- ES: Quitar del historial -->
+    <string name="remover_do_historico">Quitar del historial</string>
+    <!-- ES: Quitar de recientes -->
+    <string name="remover_dos_recentes">Quitar de recientes</string>
+    <!-- ES: Quitar favoritos -->
+    <string name="remover_favoritos">Quitar favoritos</string>
+    <!-- ES: Renombrar -->
+    <string name="renomear">Renombrar</string>
+    <!-- ES: Renombrar playlist -->
+    <string name="renomear_playlist">Renombrar playlist</string>
+    <!-- ES: rep-{1} -->
+    <string name="rep">rep-%1$s</string>
+    <!-- ES: Reproducción automática -->
+    <string name="reproducao_automatica">Reproducción automática</string>
+    <!-- ES: Reproducir -->
+    <string name="reproduzir">Reproducir</string>
+    <!-- ES: ▶  Reproducir -->
+    <string name="reproduzir_2">▶  Reproducir</string>
+    <!-- ES: ▶  Reproducir episodio -->
+    <string name="reproduzir_episodio">▶  Reproducir episodio</string>
+    <!-- ES: rest:{1} -->
+    <string name="rest">rest:%1$s</string>
+    <!-- ES: Restauradas {1}; {2} con error: {3} -->
+    <string name="restauradas_com_erro">Restauradas %1$s; %2$s con error: %3$s</string>
+    <!-- ES: Restablecer -->
+    <string name="restaurar">Restablecer</string>
+    <!-- ES: Restaurar backup -->
+    <string name="restaurar_backup">Restaurar backup</string>
+    <!-- ES: Restablecer preferencias -->
+    <string name="restaurar_preferencias">Restablecer preferencias</string>
+    <!-- ES: Reanudar -->
+    <string name="retomar">Reanudar</string>
+    <!-- ES: Salir -->
+    <string name="sair">Salir</string>
+    <!-- ES: Guardar -->
+    <string name="salvar">Guardar</string>
+    <!-- ES: Guardar clave TMDB -->
+    <string name="salvar_chave_tmdb">Guardar clave TMDB</string>
+    <!-- ES: Guardar fuentes EPG -->
+    <string name="salvar_fontes_do_guia">Guardar fuentes EPG</string>
+    <!-- ES: SELECT (SELECT TRIM(canonical.group_name) FROM channels AS canonical  -->
+    <string name="select_select_trim_canonical_group_name_from">SELECT (SELECT TRIM(canonical.group_name) FROM channels AS canonical </string>
+    <!-- ES: Sin carátula -->
+    <string name="sem_capa">Sin carátula</string>
+    <!-- ES: Sin coincidencias para «{1}». -->
+    <string name="sem_correspondencias_para">Sin coincidencias para «%1$s».</string>
+    <!-- ES: Sin fecha de expiración -->
+    <string name="sem_data_de_expiracao">Sin fecha de expiración</string>
+    <!-- ES: Sin fuente -->
+    <string name="sem_fonte">Sin fuente</string>
+    <!-- ES: Sin grupo -->
+    <string name="sem_grupo">Sin grupo</string>
+    <!-- ES: Sin grupos coincidentes -->
+    <string name="sem_grupos_correspondentes">Sin grupos coincidentes</string>
+    <!-- ES: Untitled -->
+    <string name="sem_titulo">Untitled</string>
+    <!-- ES: Contraseña -->
+    <string name="senha">Contraseña</string>
+    <!-- ES: Contraseña (si el portal la pide) -->
+    <string name="senha_se_o_portal_pedir">Contraseña (si el portal la pide)</string>
+    <!-- ES: Serie -->
+    <string name="serie">Serie</string>
+    <!-- ES: Series: {1} -->
+    <string name="series">Series: %1$s</string>
+    <!-- ES: Servidor -->
+    <string name="servidor">Servidor</string>
+    <!-- ES: Servidor: {1} -->
+    <string name="servidor_2">Servidor: %1$s</string>
+    <!-- ES: Señal interrumpida. Reconectando ({1}/{2})… -->
+    <string name="sinal_interrompido_reconectando">Señal interrumpida. Reconectando (%1$s/%2$s)…</string>
+    <!-- ES: Sincronizando «{1}}» -->
+    <string name="sincronizando">Sincronizando «%1$s}»</string>
+    <!-- ES: small -->
+    <string name="small">small</string>
+    <!-- ES: Solo se pueden descargar URLs HTTP o HTTPS directas. -->
+    <string name="so_e_possivel_baixar_urls_http_ou_https_dire">Solo se pueden descargar URLs HTTP o HTTPS directas.</string>
+    <!-- ES: Invalid encrypted download request. -->
+    <string name="solicitacao_de_download_criptografado_invali">Invalid encrypted download request.</string>
+    <!-- ES: source_order {1}, id {1} -->
+    <string name="source_order_id">source_order %1$s, id %1$s</string>
+    <!-- ES: (source_order {1} (SELECT source_order FROM channels WHERE id = ?) OR  -->
+    <string name="source_order_select_source_order_from_channe">(source_order %1$s (SELECT source_order FROM channels WHERE id = ?) OR </string>
+    <!-- ES: Stalker {1} -->
+    <string name="stalker">Stalker %1$s</string>
+    <!-- ES: stalker:{1}:{2} -->
+    <string name="stalker_2">stalker:%1$s:%2$s</string>
+    <!-- ES: Stalker / Ministra -->
+    <string name="stalker_ministra">Stalker / Ministra</string>
+    <!-- ES: Tus fuentes no han proporcionado fechas de alta para el catálogo. -->
+    <string name="suas_fontes_nao_forneceram_datas_de_inclusao">Tus fuentes no han proporcionado fechas de alta para el catálogo.</string>
+    <!-- ES: T{1} -->
+    <string name="t">T%1$s</string>
+    <!-- ES: Tamaño: {1} -->
+    <string name="tamanho">Tamaño: %1$s</string>
+    <!-- ES: Tamaño de carátulas -->
+    <string name="tamanho_das_capas">Tamaño de carátulas</string>
+    <!-- ES: Pantalla que se abre al arrancar; pulsa OK para cambiarla -->
+    <string name="tela_que_abre_ao_iniciar_pressione_ok_para_a">Pantalla que se abre al arrancar; pulsa OK para cambiarla</string>
+    <!-- ES: Tema visual -->
+    <string name="tema_visual">Tema visual</string>
+    <!-- ES: Temporada {1} -->
+    <string name="temporada">Temporada %1$s</string>
+    <!-- ES: Temporada -->
+    <string name="temporada_2">Temporada</string>
+    <!-- ES: Reintenta hasta 6 veces si se corta una emisión ya iniciada; pulsa OK para cambiarlo -->
+    <string name="tenta_novamente_ate_6_vezes_se_uma_transmiss">Reintenta hasta 6 veces si se corta una emisión ya iniciada; pulsa OK para cambiarlo</string>
+    <!-- ES: Reintentar -->
+    <string name="tentar_novamente">Reintentar</string>
+    <!-- ES: Prueba otra copia del mismo VOD si falla; pulsa OK para cambiarlo -->
+    <string name="teste_outra_copia_do_mesmo_vod_se_falhar_pre">Prueba otra copia del mismo VOD si falla; pulsa OK para cambiarlo</string>
+    <!-- ES: {1} · {2} -->
+    <string name="texto">%1$s · %2$s</string>
+    <!-- ES: {1} / {1} -->
+    <string name="texto_2">%1$s / %1$s</string>
+    <!-- ES: {1}{1} -->
+    <string name="texto_3">%1$s%1$s</string>
+    <!-- ES: {1} · {2} · {1} -->
+    <string name="texto_4">%1$s · %2$s · %1$s</string>
+    <!-- ES: {1}:{1} -->
+    <string name="texto_5">%1$s:%1$s</string>
+    <!-- ES: Texto M3U -->
+    <string name="texto_m3u">Texto M3U</string>
+    <!-- ES: timeline -->
+    <string name="timeline">timeline</string>
+    <!-- ES: Tipo: {1} -->
+    <string name="tipo">Tipo: %1$s</string>
+    <!-- ES: TIPO -->
+    <string name="tipo_2">TIPO</string>
+    <!-- ES: Títulos bajo las carátulas -->
+    <string name="titulos_sob_as_capas">Títulos bajo las carátulas</string>
+    <!-- ES: Todas las playlists -->
+    <string name="todas_as_playlists">Todas las playlists</string>
+    <!-- ES: Todos -->
+    <string name="todos">Todos</string>
+    <!-- ES: track-{1} -->
+    <string name="track">track-%1$s</string>
+    <!-- ES: tvFocus -->
+    <string name="tvfocus">tvFocus</string>
+    <!-- ES: tvImport -->
+    <string name="tvimport">tvImport</string>
+    <!-- ES: tvImportPulse -->
+    <string name="tvimportpulse">tvImportPulse</string>
+    <!-- ES: tvImportSweep -->
+    <string name="tvimportsweep">tvImportSweep</string>
+    <!-- ES: tvRailWidth -->
+    <string name="tvrailwidth">tvRailWidth</string>
+    <!-- ES: TvText.init() nao foi chamado - verifique TvApplication.onCreate -->
+    <string name="tvtext_init_nao_foi_chamado_verifique_tvappl">TvText.init() nao foi chamado - verifique TvApplication.onCreate</string>
+    <!-- ES: URL de playlist (m3u, m3u8)* -->
+    <string name="url_da_playlist_m3u_m3u8">URL de playlist (m3u, m3u8)*</string>
+    <!-- ES: URL EPG no válida -->
+    <string name="url_epg_invalida">URL EPG no válida</string>
+    <!-- ES: URL M3U -->
+    <string name="url_m3u">URL M3U</string>
+    <!-- ES: URL XMLTV (opcional) -->
+    <string name="url_xmltv_opcional">URL XMLTV (opcional)</string>
+    <!-- ES: URLs XMLTV (una por línea, opcional) -->
+    <string name="urls_xmltv_uma_por_linha_opcional">URLs XMLTV (una por línea, opcional)</string>
+    <!-- ES: Usar URL o pegar contenido -->
+    <string name="usar_url_ou_colar_conteudo">Usar URL o pegar contenido</string>
+    <!-- ES: Usa estos valores solo si tu proveedor te los ha dado; algunos portales los fijan a la MAC. -->
+    <string name="use_estes_valores_apenas_se_seu_provedor_os">Usa estos valores solo si tu proveedor te los ha dado; algunos portales los fijan a la MAC.</string>
+    <!-- ES: Usuario -->
+    <string name="usuario">Usuario</string>
+    <!-- ES: Usuario (si el portal lo pide) -->
+    <string name="usuario_se_o_portal_pedir">Usuario (si el portal lo pide)</string>
+    <!-- ES: UTC -->
+    <string name="utc">UTC</string>
+    <!-- ES: Velocidad inicial para películas y episodios; pulsa OK para alternar -->
+    <string name="velocidade_inicial_para_filmes_e_episodios_p">Velocidad inicial para películas y episodios; pulsa OK para alternar</string>
+    <!-- ES: Velocidad VOD -->
+    <string name="velocidade_vod">Velocidad VOD</string>
+    <!-- ES: Ver diagnóstico -->
+    <string name="ver_diagnostico">Ver diagnóstico</string>
+    <!-- ES: Ver tráiler -->
+    <string name="ver_trailer">Ver tráiler</string>
+    <!-- ES: Ver todo -->
+    <string name="ver_tudo">Ver todo</string>
+    <!-- ES: Versión de backup de IPTVnator no compatible -->
+    <string name="versao_de_backup_do_iptvnator_incompativel">Versión de backup de IPTVnator no compatible</string>
+    <!-- ES: Versión de backup no compatible -->
+    <string name="versao_de_backup_incompativel">Versión de backup no compatible</string>
+    <!-- ES: Vídeo: {1} -->
+    <string name="video">Vídeo: %1$s</string>
+    <!-- ES: video/mp4 -->
+    <string name="video_mp4">video/mp4</string>
+    <!-- ES: Vista de guía -->
+    <string name="vista_do_guia">Vista de guía</string>
+    <!-- ES: Vista inicial -->
+    <string name="vista_inicial">Vista inicial</string>
+    <!-- ES: Puedes seguir usando el mando cuando termine; no cierres la aplicación. -->
+    <string name="voce_pode_continuar_usando_o_controle_quando">Puedes seguir usando el mando cuando termine; no cierres la aplicación.</string>
+    <!-- ES: vod -->
+    <string name="vod">vod</string>
+    <!-- ES: Atrás -->
+    <string name="voltar">Atrás</string>
+    <!-- ES: Volver a Inicio -->
+    <string name="voltar_ao_inicio">Volver a Inicio</string>
+    <!-- ES: www.{1} -->
+    <string name="www">www.%1$s</string>
+    <!-- ES: xtream:{1}:{2} -->
+    <string name="xtream">xtream:%1$s:%2$s</string>
+    <string name="sobre_titulo">Bora TV</string>
+    <string name="sobre_autor">Adaptado y mantenido por Leonardo Bora · github.com/leonardobora</string>
+    <string name="sobre_base">Basado en IPTVnator (MIT, © 4gray) y en el port android-tv del PR #1699.</string>
+    <string name="sobre_licenca">Build no oficial. Solo reproductor: no incluye canales, listas ni suscripciones. El codigo de android-tv/ esta bajo GPL-3.0-or-later.</string>
+</resources>

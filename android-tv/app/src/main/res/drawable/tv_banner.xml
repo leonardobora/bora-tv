@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Banner 320x180 exigido pelo launcher de Android TV/Google TV. -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#E01A2B"
+                android:endColor="#8C0E19" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_launcher"
+        android:gravity="center"
+        android:height="120dp"
+        android:width="120dp" />
+</layer-list>
