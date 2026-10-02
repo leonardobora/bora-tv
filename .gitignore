@@ -18,3 +18,7 @@ fdroid/repo/
 fdroid/keystore.p12
 fdroid/config.yml
 fdroid/tmp/
+
+# artefatos internos do fdroidserver (o que vale e o repo/ publicado)
+fdroid/archive/
+fdroid/index.html
