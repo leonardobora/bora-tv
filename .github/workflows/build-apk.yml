@@ -34,7 +34,18 @@ jobs:
           java-version: "21"
 
       - name: "Android SDK"
-        uses: android-actions/setup-android@v3
+        # A action android-actions/setup-android@v3 quebra hoje: ela tenta instalar
+        # o pacote 'tools', que foi removido do repositorio do SDK. O runner do
+        # GitHub ja vem com o SDK; aqui so garantimos a plataforma e as build-tools.
+        run: |
+          set -euo pipefail
+          SDK="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
+          echo "ANDROID_HOME=$SDK" >> "$GITHUB_ENV"
+          echo "ANDROID_SDK_ROOT=$SDK" >> "$GITHUB_ENV"
+          SDKMGR="$(ls -d "$SDK"/cmdline-tools/*/bin/sdkmanager 2>/dev/null | tail -1)"
+          echo "usando $SDKMGR"
+          yes | "$SDKMGR" --licenses >/dev/null 2>&1 || true
+          "$SDKMGR" "platform-tools" "platforms;android-36" "build-tools;36.0.0"
 
       - name: "Build do release"
         working-directory: android-tv
