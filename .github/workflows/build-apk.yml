@@ -24,6 +24,10 @@ permissions:
 jobs:
   apk:
     runs-on: ubuntu-latest
+    # o contexto `secrets` nao esta disponivel em `if:` de step, entao a decisao
+    # de assinar vem por uma variavel de ambiente definida aqui no job
+    env:
+      HAS_KEYSTORE: ${{ secrets.KEYSTORE_BASE64 != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -52,7 +56,7 @@ jobs:
         run: ./gradlew :app:assembleRelease --no-daemon
 
       - name: "Assinar com a chave de release, se houver secrets"
-        if: ${{ env.KEYSTORE_BASE64 != '' }}
+        if: env.HAS_KEYSTORE == 'true'
         env:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
         run: |
@@ -76,7 +80,7 @@ jobs:
           sha256sum "$OUT"
 
       - name: "Fallback sem secrets, usando o APK do Gradle"
-        if: ${{ env.KEYSTORE_BASE64 == '' }}
+        if: env.HAS_KEYSTORE != 'true'
         run: |
           OUT="iptvnator-tv-${GITHUB_REF_NAME#v}-debugkey.apk"
           cp android-tv/app/build/outputs/apk/release/app-release.apk "$OUT"

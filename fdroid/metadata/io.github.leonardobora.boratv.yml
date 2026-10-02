@@ -1,9 +1,48 @@
-AuthorName: ''
 Categories:
-- fdroid
-CurrentVersionCode: 2147483647
-IssueTracker: ''
-Name: Bora TV
-SourceCode: ''
-Summary: ''
-WebSite: ''
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: Leonardo Bora
+SourceCode: https://github.com/leonardobora/bora-tv
+IssueTracker: https://github.com/leonardobora/bora-tv/issues
+Changelog: https://github.com/leonardobora/bora-tv/releases
+AutoName: Bora TV
+WebSite: https://github.com/leonardobora/bora-tv
+
+Summary: Player de IPTV em português para Android TV, Google TV e celular
+Description: |-
+  Build não oficial e em português do player IPTVnator para Android TV.
+
+  O aplicativo NÃO fornece canais, playlists nem assinaturas. Você aponta ele
+  para a sua própria fonte: M3U/M3U8 (URL, arquivo ou texto), Xtream Codes
+  (canais, filmes e séries) ou portal Stalker/Ministra.
+
+  Recursos: lista de canais com grupos, favoritos, recentes e busca; zapping por
+  CH+/CH- e número do canal; filmes e séries com página de detalhe, retomada e
+  enriquecimento opcional via TMDB; player com HLS, DASH (inclui ClearKey),
+  MPEG-TS e MP4, seleção de faixa e legenda, legendas externas e reconexão
+  automática; EPG XMLTV com linha do tempo, busca de programa e catch-up;
+  downloads e gravação de canal ao vivo.
+
+  Limitações conhecidas: o foco do controle remoto às vezes cai no elemento
+  errado ou exige um aperto extra; parte dos textos ainda está em espanhol; a
+  interface é a de TV (paisagem) também no celular; não roda em LG webOS.
+
+  Sem telemetria: o app não envia nada para servidor nenhum e não inclui
+  identificador de usuário. As credenciais da fonte ficam cifradas no Keystore
+  do aparelho e o backup automático do Android está desligado de propósito.
+
+RepoType: git
+Repo: https://github.com/leonardobora/bora-tv.git
+
+Builds:
+  - versionName: 0.3.0
+    versionCode: 3
+    commit: v0.3.0
+    subdir: android-tv
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 0.3.0
+CurrentVersionCode: 3
